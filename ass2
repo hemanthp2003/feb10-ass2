@@ -1,0 +1,13 @@
+sname=input('enter student name:')
+sID=int(input('enter sID:'))
+sgroup=input('enter sgroup:')
+s1=int(input('enter maths marks:'))
+s2=int(input('enter stat marks:'))
+s3=int(input('enter cs marks:'))
+s4=int(input('enter english marks:'))
+s5=int(input('enter telugu marks:'))
+s6=int(input('enter ict marks:'))
+if(s1 and s2 and s3 and s4 and s5 and s6)>=35:
+  print('pass')
+else:
+    print('fail')
